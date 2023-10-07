@@ -1,0 +1,49 @@
+
+body, h1, p {
+    margin: 0;
+    padding: 0;
+}
+
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+
+main {
+    padding: 200px;
+    text-align: center;
+    background-image: url('madola.jpg'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: white; 
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    font-style: italic; 
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.5;
+    font-style: italic; 
+}
